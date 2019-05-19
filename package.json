@@ -1,11 +1,21 @@
 {
   "name": "involves-fullstack-front",
   "version": "0.1.0",
+  "author": {
+    "email": "luisbsl@gmail.com",
+    "name": "Luis Ismael Bastos Silva Lima"
+  },
+  "license": "MIT",
+  "description": "Aplicação React para consumir a Central de Alerta Backend e retornar uma lista de todos os alertas",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
